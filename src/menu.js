@@ -1,5 +1,9 @@
 const content = document.querySelector('#content');
-import img1 from './images/Margherita Pizza.png';
+import img1 from '../public/images/Margherita Pizza.png';
+import img2 from '../public/images/caesar Salad.png.png';
+import img3 from '../public/images/Grilled Chicken.png';
+import img4 from '../public/images/Pepperoni Pizza.png';
+import img5 from '../public/images/Pasta Carbonara.png';
 
 
 function loadMenu() {
@@ -21,25 +25,25 @@ function loadMenu() {
       name: 'caesar Salad',
       price: '$14',
       description: 'Crunch, sauce, heft.',
-      image: './images/caesar Salad.png',
+      image: img2,
     },
     {
       name: 'Grilled Chicken',
       price: '$16',
       description: 'Crisp outside, soft inside.',
-      image: './images/Grilled Chicken.png',
+      image: img3,
     },
     {
       name: 'Pepperoni Pizza',
       price: '$14',
       description: 'Tall, juicy, loaded.',
-      image: './images/Pepperoni Pizza.png',
+      image: img4,
     },
     {
       name: 'Pasta Carbonara',
       price: '$13',
       description: 'Simple, stacked, bold.',
-      image: './images/Pasta Carbonara.png',
+      image: img5,
     },
   ];
 
