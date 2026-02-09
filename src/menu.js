@@ -19,31 +19,31 @@ function loadMenu() {
       name: 'Margherita Pizza',
       price: '$12',
       description: 'Simple, stacked, bold.',
-      image: margherita,
+      image: '/images/Margherita Pizza.png',
     },
     {
       name: 'Caesar Salad',
       price: '$14',
       description: 'Crunch, sauce, heft.',
-      image: caesar,
+      image: '/images/caesar Salad.png',
     },
     {
       name: 'Grilled Chicken',
       price: '$16',
       description: 'Crisp outside, soft inside.',
-      image: grilled,
+      image: '/images/Grilled Chicken.png',
     },
     {
       name: 'Pepperoni Pizza',
       price: '$14',
       description: 'Tall, juicy, loaded.',
-      image: pepperoni,
+      image: '/images/Pepperoni Pizza.png',
     },
     {
       name: 'Pasta Carbonara',
       price: '$13',
       description: 'Simple, stacked, bold.',
-      image: pasta,
+      image: '/images/Pasta Carbonara.png',
     },
   ];
 
