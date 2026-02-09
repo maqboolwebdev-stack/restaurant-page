@@ -1,4 +1,6 @@
 const content = document.querySelector('#content');
+import img1 from './images/Margherita Pizza.png';
+
 
 function loadMenu() {
   content.innerHTML = '';
@@ -13,7 +15,7 @@ function loadMenu() {
       name: 'Margherita Pizza',
       price: '$12',
       description: 'Simple, stacked, bold.',
-      image: './images/Margherita Pizza.png',
+      image: img1,
     },
     {
       name: 'caesar Salad',
