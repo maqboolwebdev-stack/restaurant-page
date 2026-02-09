@@ -126,7 +126,7 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpa
   \*********************/
 (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _public_images_homePizza_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../public/images/homePizza.jpg */ \"./public/images/homePizza.jpg\");\n\r\n\r\nconst content = document.querySelector('#content');\r\n\r\nfunction loadHome() {\r\n  //   main div\r\n  const heroDiv = document.createElement('div');\r\n  heroDiv.className = 'hero';\r\n\r\n  // text div\r\n  const text = document.createElement('div');\r\n  text.className = 'hero-text';\r\n  const heading = document.createElement('h1');\r\n  heading.className = 'h1';\r\n  heading.textContent = 'Welcome to Our Restaurant';\r\n  const paragraph = document.createElement('p');\r\n  paragraph.textContent = 'Enjoy our delicious food and great atmosphere!';\r\n  // image div\r\n  const imgDiv = document.createElement('div');\r\n  imgDiv.className = 'hero-img';\r\n  const img = document.createElement('img');\r\n  img.className = 'img-style';\r\n  img.src = _public_images_homePizza_jpg__WEBPACK_IMPORTED_MODULE_0__;\r\n\r\n  //appending\r\n  text.appendChild(heading);\r\n  text.appendChild(paragraph);\r\n  heroDiv.appendChild(text);\r\n  imgDiv.appendChild(img);\r\n  heroDiv.appendChild(imgDiv);\r\n  content.appendChild(heroDiv);\r\n\r\n  // hours section\r\n  const hoursSection = document.createElement('div');\r\n  hoursSection.className = 'hours-section';\r\n  const hoursHeading = document.createElement('h2');\r\n  hoursHeading.textContent = 'Hours of Operation';\r\n\r\n  hoursSection.appendChild(hoursHeading);\r\n\r\n  const hours = [\r\n    'Sunday: 8am - 8pm',\r\n    'Monday: 6am - 6pm',\r\n    'Tuesday: 6am - 6pm',\r\n    'Wednesday: 6am - 6pm',\r\n    'Thursday: 6am - 10pm',\r\n    'Friday: 6am - 10pm',\r\n    'Saturday: 8am - 10pm',\r\n  ];\r\n\r\n  hours.forEach((line) => {\r\n    const hourPara = document.createElement('p');\r\n    hourPara.textContent = line;\r\n    hoursSection.appendChild(hourPara);\r\n  });\r\n\r\n  content.appendChild(hoursSection);\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadHome);\r\n\n\n//# sourceURL=webpack://restaurant-page/./src/home.js?\n}");
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _images_homePizza_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/homePizza.jpg */ \"./src/images/homePizza.jpg\");\n\r\n\r\nconst content = document.querySelector('#content');\r\n\r\nfunction loadHome() {\r\n  //   main div\r\n  const heroDiv = document.createElement('div');\r\n  heroDiv.className = 'hero';\r\n\r\n  // text div\r\n  const text = document.createElement('div');\r\n  text.className = 'hero-text';\r\n  const heading = document.createElement('h1');\r\n  heading.className = 'h1';\r\n  heading.textContent = 'Welcome to Our Restaurant';\r\n  const paragraph = document.createElement('p');\r\n  paragraph.textContent = 'Enjoy our delicious food and great atmosphere!';\r\n  // image div\r\n  const imgDiv = document.createElement('div');\r\n  imgDiv.className = 'hero-img';\r\n  const img = document.createElement('img');\r\n  img.className = 'img-style';\r\n  img.src = _images_homePizza_jpg__WEBPACK_IMPORTED_MODULE_0__;\r\n\r\n  //appending\r\n  text.appendChild(heading);\r\n  text.appendChild(paragraph);\r\n  heroDiv.appendChild(text);\r\n  imgDiv.appendChild(img);\r\n  heroDiv.appendChild(imgDiv);\r\n  content.appendChild(heroDiv);\r\n\r\n  // hours section\r\n  const hoursSection = document.createElement('div');\r\n  hoursSection.className = 'hours-section';\r\n  const hoursHeading = document.createElement('h2');\r\n  hoursHeading.textContent = 'Hours of Operation';\r\n\r\n  hoursSection.appendChild(hoursHeading);\r\n\r\n  const hours = [\r\n    'Sunday: 8am - 8pm',\r\n    'Monday: 6am - 6pm',\r\n    'Tuesday: 6am - 6pm',\r\n    'Wednesday: 6am - 6pm',\r\n    'Thursday: 6am - 10pm',\r\n    'Friday: 6am - 10pm',\r\n    'Saturday: 8am - 10pm',\r\n  ];\r\n\r\n  hours.forEach((line) => {\r\n    const hourPara = document.createElement('p');\r\n    hourPara.textContent = line;\r\n    hoursSection.appendChild(hourPara);\r\n  });\r\n\r\n  content.appendChild(hoursSection);\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadHome);\r\n\n\n//# sourceURL=webpack://restaurant-page/./src/home.js?\n}");
 
 /***/ },
 
@@ -146,17 +146,67 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _st
   \*********************/
 (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nconst content = document.querySelector('#content');\r\n\r\nfunction loadMenu() {\r\n  content.innerHTML = '';\r\n\r\n  const menuHeading = document.createElement('h1');\r\n  menuHeading.className = 'menu-heading';\r\n  menuHeading.textContent = 'Menu';\r\n  content.appendChild(menuHeading);\r\n\r\n  const menuItems = [\r\n    {\r\n      name: 'Margherita Pizza',\r\n      price: '$12',\r\n      description: 'Simple, stacked, bold.',\r\n      image: '/images/Margherita Pizza.png',\r\n    },\r\n    {\r\n      name: 'caesar Salad',\r\n      price: '$14',\r\n      description: 'Crunch, sauce, heft.',\r\n      image: '/images/caesar Salad.png',\r\n    },\r\n    {\r\n      name: 'Grilled Chicken',\r\n      price: '$16',\r\n      description: 'Crisp outside, soft inside.',\r\n      image: '/images/Grilled Chicken.png',\r\n    },\r\n    {\r\n      name: 'Pepperoni Pizza',\r\n      price: '$14',\r\n      description: 'Tall, juicy, loaded.',\r\n      image: '/images/Pepperoni Pizza.png',\r\n    },\r\n    {\r\n      name: 'Pasta Carbonara',\r\n      price: '$13',\r\n      description: 'Simple, stacked, bold.',\r\n      image: '/images/Pasta Carbonara.png',\r\n    },\r\n  ];\r\n\r\n  menuItems.forEach((item) => {\r\n    const menuItem = document.createElement('div');\r\n    menuItem.className = 'menu-item';\r\n\r\n    const menuInfo = document.createElement('div');\r\n    menuInfo.className = 'menu-info';\r\n\r\n    const nameHeading = document.createElement('h2');\r\n    nameHeading.textContent = item.name;\r\n\r\n    const priceHeading = document.createElement('h3');\r\n    priceHeading.textContent = `price: '${item.price}`;\r\n\r\n    const description = document.createElement('p');\r\n    description.textContent = item.description;\r\n\r\n    const img = document.createElement('img');\r\n    img.src = item.image;\r\n    img.alt = item.name;\r\n\r\n    menuInfo.appendChild(nameHeading);\r\n    menuInfo.appendChild(priceHeading);\r\n    menuInfo.appendChild(description);\r\n\r\n    menuItem.appendChild(menuInfo);\r\n    menuItem.appendChild(img);\r\n\r\n    content.appendChild(menuItem);\r\n  });\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadMenu);\r\n\n\n//# sourceURL=webpack://restaurant-page/./src/menu.js?\n}");
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _images_Margherita_Pizza_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/Margherita Pizza.png */ \"./src/images/Margherita Pizza.png\");\n/* harmony import */ var _images_Caesar_Salad_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/Caesar Salad.png */ \"./src/images/Caesar Salad.png\");\n/* harmony import */ var _images_Grilled_Chicken_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/Grilled Chicken.png */ \"./src/images/Grilled Chicken.png\");\n/* harmony import */ var _images_Pepperoni_Pizza_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./images/Pepperoni Pizza.png */ \"./src/images/Pepperoni Pizza.png\");\n/* harmony import */ var _images_Pasta_Carbonara_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./images/Pasta Carbonara.png */ \"./src/images/Pasta Carbonara.png\");\n\r\n\r\n\r\n\r\n\r\n\r\nconst content = document.querySelector('#content');\r\n\r\nfunction loadMenu() {\r\n  content.innerHTML = '';\r\n\r\n  const menuHeading = document.createElement('h1');\r\n  menuHeading.className = 'menu-heading';\r\n  menuHeading.textContent = 'Menu';\r\n  content.appendChild(menuHeading);\r\n\r\n  const menuItems = [\r\n    {\r\n      name: 'Margherita Pizza',\r\n      price: '$12',\r\n      description: 'Simple, stacked, bold.',\r\n      image: _images_Margherita_Pizza_png__WEBPACK_IMPORTED_MODULE_0__,\r\n    },\r\n    {\r\n      name: 'Caesar Salad',\r\n      price: '$14',\r\n      description: 'Crunch, sauce, heft.',\r\n      image: _images_Caesar_Salad_png__WEBPACK_IMPORTED_MODULE_1__,\r\n    },\r\n    {\r\n      name: 'Grilled Chicken',\r\n      price: '$16',\r\n      description: 'Crisp outside, soft inside.',\r\n      image: _images_Grilled_Chicken_png__WEBPACK_IMPORTED_MODULE_2__,\r\n    },\r\n    {\r\n      name: 'Pepperoni Pizza',\r\n      price: '$14',\r\n      description: 'Tall, juicy, loaded.',\r\n      image: _images_Pepperoni_Pizza_png__WEBPACK_IMPORTED_MODULE_3__,\r\n    },\r\n    {\r\n      name: 'Pasta Carbonara',\r\n      price: '$13',\r\n      description: 'Simple, stacked, bold.',\r\n      image: _images_Pasta_Carbonara_png__WEBPACK_IMPORTED_MODULE_4__,\r\n    },\r\n  ];\r\n\r\n  menuItems.forEach((item) => {\r\n    const menuItem = document.createElement('div');\r\n    menuItem.className = 'menu-item';\r\n\r\n    const menuInfo = document.createElement('div');\r\n    menuInfo.className = 'menu-info';\r\n\r\n    const nameHeading = document.createElement('h2');\r\n    nameHeading.textContent = item.name;\r\n\r\n    const priceHeading = document.createElement('h3');\r\n    priceHeading.textContent = `Price: ${item.price}`;\r\n\r\n    const description = document.createElement('p');\r\n    description.textContent = item.description;\r\n\r\n    const img = document.createElement('img');\r\n    img.src = item.image;\r\n    img.alt = item.name;\r\n\r\n    menuInfo.appendChild(nameHeading);\r\n    menuInfo.appendChild(priceHeading);\r\n    menuInfo.appendChild(description);\r\n\r\n    menuItem.appendChild(menuInfo);\r\n    menuItem.appendChild(img);\r\n\r\n    content.appendChild(menuItem);\r\n  });\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadMenu);\r\n\n\n//# sourceURL=webpack://restaurant-page/./src/menu.js?\n}");
 
 /***/ },
 
-/***/ "./public/images/homePizza.jpg"
+/***/ "./src/images/Caesar Salad.png"
 /*!*************************************!*\
-  !*** ./public/images/homePizza.jpg ***!
+  !*** ./src/images/Caesar Salad.png ***!
   \*************************************/
 (module, __unused_webpack_exports, __webpack_require__) {
 
-eval("{module.exports = __webpack_require__.p + \"bdf3926fe6fb1b7e6804.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./public/images/homePizza.jpg?\n}");
+eval("{module.exports = __webpack_require__.p + \"96d570b94783a034e6cd.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/Caesar_Salad.png?\n}");
+
+/***/ },
+
+/***/ "./src/images/Grilled Chicken.png"
+/*!****************************************!*\
+  !*** ./src/images/Grilled Chicken.png ***!
+  \****************************************/
+(module, __unused_webpack_exports, __webpack_require__) {
+
+eval("{module.exports = __webpack_require__.p + \"acd2a8f013fe5e307708.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/Grilled_Chicken.png?\n}");
+
+/***/ },
+
+/***/ "./src/images/Margherita Pizza.png"
+/*!*****************************************!*\
+  !*** ./src/images/Margherita Pizza.png ***!
+  \*****************************************/
+(module, __unused_webpack_exports, __webpack_require__) {
+
+eval("{module.exports = __webpack_require__.p + \"c3020f3c81ca8d556ea2.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/Margherita_Pizza.png?\n}");
+
+/***/ },
+
+/***/ "./src/images/Pasta Carbonara.png"
+/*!****************************************!*\
+  !*** ./src/images/Pasta Carbonara.png ***!
+  \****************************************/
+(module, __unused_webpack_exports, __webpack_require__) {
+
+eval("{module.exports = __webpack_require__.p + \"93466ca7d05f56ff9cb7.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/Pasta_Carbonara.png?\n}");
+
+/***/ },
+
+/***/ "./src/images/Pepperoni Pizza.png"
+/*!****************************************!*\
+  !*** ./src/images/Pepperoni Pizza.png ***!
+  \****************************************/
+(module, __unused_webpack_exports, __webpack_require__) {
+
+eval("{module.exports = __webpack_require__.p + \"f85802a32388a03a058f.png\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/Pepperoni_Pizza.png?\n}");
+
+/***/ },
+
+/***/ "./src/images/homePizza.jpg"
+/*!**********************************!*\
+  !*** ./src/images/homePizza.jpg ***!
+  \**********************************/
+(module, __unused_webpack_exports, __webpack_require__) {
+
+eval("{module.exports = __webpack_require__.p + \"bdf3926fe6fb1b7e6804.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/images/homePizza.jpg?\n}");
 
 /***/ }
 

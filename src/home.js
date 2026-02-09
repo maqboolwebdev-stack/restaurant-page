@@ -1,4 +1,4 @@
-import hero from '../public/images/homePizza.jpg';
+import hero from './images/homePizza.jpg';
 
 const content = document.querySelector('#content');
 
