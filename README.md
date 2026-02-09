@@ -1,1 +1,1 @@
-i used webpack for build resturent page project for effection loading
+i used webpack for build resturent page project for efficient loading
