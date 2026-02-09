@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+  background-color: white;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  width: 100vw;
+  height: 10vh;
+  margin-top: 2rem;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 2rem;
+}
+
+button {
+  background-color: firebrick;
+  color: white;
+  border: none;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 4rem;
+  width: 8rem;
+}
+
+button:hover {
+  background-color: darkred;
+}
+
+button:active {
+  background-color: rgb(126, 3, 3);
+}
+
+.hero {
+  display: flex;
+  width: 100vw;
+  height: 40vw;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero-text {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+.h1 {
+  font-size: 2.5rem;
+}
+
+img {
+  width: 40vw;
+  border-radius: 1rem;
+}
+
+.hours-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 4rem;
+}
+
+.about-container {
+  display: flex;
+  width: 100vw;
+  height: 40vw;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* MENU */
+
+.menu-heading {
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 3rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 800px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-info {
+  flex: 1;
+}
+
+.menu-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.menu-info h3 {
+  color: firebrick;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.menu-item img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* About */
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 3rem;
+  border-radius: 12px;
+}
+
+.about-us, .team {
+  flex: 1;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.about-us h2, .team h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
+  color: #d84315;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #ff7043;
+  display: inline-block;
+  padding-bottom: 0.3rem;
+}
+
+.about-us p, .team p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #444;
+}
