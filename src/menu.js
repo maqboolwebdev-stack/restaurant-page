@@ -13,7 +13,7 @@ function loadMenu() {
       name: 'Margherita Pizza',
       price: '$12',
       description: 'Simple, stacked, bold.',
-      image: '../public/images/Margherita Pizza.png',
+      image: './images/Margherita Pizza.png',
     },
     {
       name: 'caesar Salad',
