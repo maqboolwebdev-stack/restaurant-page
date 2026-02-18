@@ -1,8 +1,8 @@
-import margherita from './images/Margherita Pizza.png';
-import caesar from './images/Caesar Salad.png';
-import grilled from './images/Grilled Chicken.png';
-import pepperoni from './images/Pepperoni Pizza.png';
-import pasta from './images/Pasta Carbonara.png';
+import margherita from './images/MargheritaPizza.png';
+import caesar from './images/CaesarSalad.png';
+import grilled from './images/GrilledChicken.png';
+import pepperoni from './images/PepperoniPizza.png';
+import pasta from './images/PastaCarbonara.png';
 
 const content = document.querySelector('#content');
 
